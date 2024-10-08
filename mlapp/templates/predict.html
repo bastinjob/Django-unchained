@@ -1,0 +1,18 @@
+<!-- mlapp/templates/predict.html -->
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Predict</title>
+</head>
+<body>
+    <h2>Enter features for prediction</h2>
+    <form method="POST">
+        {% csrf_token %}
+        Sepal Length: <input type="text" name="feature1"><br>
+        Sepal Width: <input type="text" name="feature2"><br>
+        Petal Length: <input type="text" name="feature3"><br>
+        Petal Width: <input type="text" name="feature4"><br>
+        <input type="submit" value="Predict">
+    </form>
+</body>
+</html>

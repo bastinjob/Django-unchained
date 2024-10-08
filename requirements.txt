@@ -1,0 +1,5 @@
+Django
+scikit-learn
+numpy
+joblib
+gunicorn  # For deployment (if deploying to Heroku)
